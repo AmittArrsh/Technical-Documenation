@@ -1,0 +1,19 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body * + * {
+    margin-top: 1.5em;
+}
+
+body {
+    border: 2px solid red;
+    margin: 0;
+}
+
