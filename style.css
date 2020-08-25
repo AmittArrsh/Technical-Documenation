@@ -17,3 +17,12 @@ body {
     margin: 0;
 }
 
+#navbar {
+    background-color : grey;
+}
+
+nav header {
+    font-size: 2rem;
+    font-weight :bold;
+    text-align: center;
+}
