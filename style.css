@@ -13,16 +13,91 @@ body * + * {
 }
 
 body {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color : #04bba9;
 }
 
 #navbar {
-    background-color : grey;
+    background-color : #04bba9;
 }
 
 nav header {
     font-size: 2rem;
     font-weight :bold;
     text-align: center;
+    margin-top: 1em;
+    color: #013131;
 }
+
+nav ul {
+    /* border: 2px solid green; */
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+    
+}
+
+/* nav ul li {
+    border: 1px solid red;
+
+}  */
+
+nav li a {
+    border-bottom: 1px solid #031b1b;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1em 0 1em 2em;
+    color: #031b1b;
+}
+
+
+main {
+   position: relative;
+   background-color: #8E9EBF;
+}
+
+.main-section {
+    padding: 1em;
+}
+
+.main-section > header {
+    font-weight: 700;
+    font-size: 2rem;
+    color: #024873;
+}
+
+code {
+    border-left: 7px solid #fff;
+    background-color: #024873;
+    padding: 1em;
+    display: block;
+    white-space: pre-wrap;
+    font-size: 1.2rem;
+    border-radius: .5em;
+    color: #fff;
+
+
+}
+
+@media (min-width: 720px) {
+    
+    nav {
+        max-width: 30%;
+    }
+
+    main {
+        /* border: 2px solid red; */
+        max-width: 70%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 0;
+        height: 100vh;
+        overflow: auto;
+        
+    }
+}
+
